@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="DisabilityAware — An educational platform dedicated to raising awareness about disabilities, promoting inclusion, and sharing empowering resources."/>
+  <title>Disability Types — DisabilityAware</title>
+  <link rel="stylesheet" href="css/site.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" crossorigin="anonymous"/>
+</head>
+<body>
+
+  <!-- Accessibility Toolbar -->
+  <div class="accessibility-toolbar" role="toolbar" aria-label="Accessibility controls">
+    <button id="font-increase" aria-label="Increase text size" title="Larger text"><i class="fas fa-text-height" aria-hidden="true"></i></button>
+    <button id="font-decrease" aria-label="Decrease text size" title="Smaller text"><i class="fas fa-font" aria-hidden="true"></i></button>
+    <button id="high-contrast" aria-label="Toggle high contrast" title="High contrast"><i class="fas fa-circle-half-stroke" aria-hidden="true"></i></button>
+    <button id="read-aloud" aria-label="Read page aloud" title="Read aloud"><i class="fas fa-volume-high" aria-hidden="true"></i></button>
+    <button id="stop-speech" aria-label="Stop reading" title="Stop" style="display:none;"><i class="fas fa-stop" aria-hidden="true"></i></button>
+  </div>
+
+  <a href="#main-content" class="visually-hidden-focusable" style="position:absolute;top:4px;left:4px;z-index:99999;padding:8px 16px;background:var(--teal);color:white;border-radius:8px;font-weight:600;">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" aria-label="DisabilityAware home">
+        <span class="navbar-brand-dot" aria-hidden="true"></span>
+        DisabilityAware
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="types.html" aria-current="page">Disability Types</a></li>
+<li class="nav-item"><a class="nav-link" href="services.html">Support Services</a></li>
+<li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+<li class="nav-item"><a class="nav-link" href="inclusion.html">Inclusion Guide</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content" role="main">
+    
+<section class="page-hero" aria-labelledby="page-heading">
+  <div class="container">
+    <div class="col-lg-8">
+      <span class="section-eyebrow" style="color:rgba(255,255,255,0.6);">Knowledge Base</span>
+      <h1 id="page-heading">Understanding different disabilities</h1>
+      <p>Learn about various types of disabilities, their characteristics, and how to create supportive environments for everyone.</p>
+    </div>
+  </div>
+</section>
+
+<div class="cat-nav">
+  <a href="#visual">Visual</a>
+  <a href="#hearing">Hearing</a>
+  <a href="#mobility">Mobility</a>
+  <a href="#neurodiversity">Neurodiversity</a>
+  <a href="#cognitive">Cognitive</a>
+  <a href="#mental-health">Mental Health</a>
+  <a href="#learning">Learning</a>
+  <a href="#chronic">Chronic Health</a>
+</div>
+
+<section id="visual" class="py-5">
+  <div class="container py-4">
+    <div class="row align-items-start g-5">
+      <div class="col-lg-4">
+        <div class="edu-icon" style="background:var(--teal-light);color:var(--teal);"><i class="fas fa-eye"></i></div>
+        <h2 class="mt-4">Visual Disabilities</h2>
+        <p class="text-muted">Visual disabilities range from partial sight to complete blindness and affect how people perceive and interact with visual information.</p>
+        <div class="mt-4"><h5 class="fw-bold">Prevalence</h5><p>285 million people globally have visual impairments</p></div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-sm animate-pending">
+          <div class="card-body p-4">
+            <div class="row">
+              <div class="col-md-6">
+                <h5>Types of Visual Disabilities</h5>
+                <ul class="list-unstyled mt-3">
+                  <li class="mb-2"><i class="fas fa-circle text-primary me-2 small" style="color:var(--teal)!important"></i>Low vision</li>
+                  <li class="mb-2"><i class="fas fa-circle text-primary me-2 small" style="color:var(--teal)!important"></i>Blindness</li>
+                  <li class="mb-2"><i class="fas fa-circle text-primary me-2 small" style="color:var(--teal)!important"></i>Color blindness</li>
+                  <li class="mb-2"><i class="fas fa-circle text-primary me-2 small" style="color:var(--teal)!important"></i>Glaucoma</li>
+                  <li class="mb-2"><i class="fas fa-circle text-primary me-2 small" style="color:var(--teal)!important"></i>Cataracts</li>
+                  <li><i class="fas fa-circle text-primary me-2 small" style="color:var(--teal)!important"></i>Macular degeneration</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5>Support Strategies</h5>
+                <ul class="list-unstyled mt-3">
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>Screen reader software</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>Braille materials</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>High contrast displays</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>Audio descriptions</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>Proper lighting</li>
+                  <li><i class="fas fa-check me-2" style="color:var(--teal)"></i>Tactile indicators</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4 p-3 rounded" style="background:var(--teal-pale);border:1px solid rgba(29,122,110,0.15)">
+              <h6 class="fw-bold mb-2">Communication Tips</h6>
+              <ul class="mb-0"><li>Identify yourself when approaching</li><li>Offer your arm for guidance if needed</li><li>Use descriptive language</li><li>Don't avoid words like "see" or "look"</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hearing" class="py-5 section-alt">
+  <div class="container py-4">
+    <div class="row align-items-start g-5">
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-sm animate-pending">
+          <div class="card-body p-4">
+            <div class="row">
+              <div class="col-md-6">
+                <h5>Types of Hearing Disabilities</h5>
+                <ul class="list-unstyled mt-3">
+                  <li class="mb-2"><i class="fas fa-circle me-2 small" style="color:var(--amber)"></i>Deafness</li>
+                  <li class="mb-2"><i class="fas fa-circle me-2 small" style="color:var(--amber)"></i>Hard of hearing</li>
+                  <li class="mb-2"><i class="fas fa-circle me-2 small" style="color:var(--amber)"></i>Tinnitus</li>
+                  <li class="mb-2"><i class="fas fa-circle me-2 small" style="color:var(--amber)"></i>Auditory processing disorder</li>
+                  <li><i class="fas fa-circle me-2 small" style="color:var(--amber)"></i>Conductive hearing loss</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5>Assistive Technologies</h5>
+                <ul class="list-unstyled mt-3">
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>Hearing aids</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>Cochlear implants</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>Captioning services</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color:var(--teal)"></i>Sign language interpreters</li>
+                  <li><i class="fas fa-check me-2" style="color:var(--teal)"></i>Visual alert systems</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4">
+              <h6 class="fw-bold">Communication Methods</h6>
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                <span class="badge bg-primary">American Sign Language (ASL)</span>
+                <span class="badge bg-primary">Lip reading</span>
+                <span class="badge bg-primary">Written communication</span>
+                <span class="badge bg-primary">Speech-to-text apps</span>
+                <span class="badge bg-primary">Gesture communication</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="edu-icon" style="background:var(--amber-light);color:var(--amber);"><i class="fas fa-ear-deaf"></i></div>
+        <h2 class="mt-4">Hearing Disabilities</h2>
+        <p class="text-muted">Hearing disabilities range from mild hearing loss to profound deafness, affecting communication and social interaction.</p>
+        <div class="mt-4"><h5 class="fw-bold">Did You Know?</h5><p>Over 5% of the world's population has disabling hearing loss</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mobility" class="py-5">
+  <div class="container py-4">
+    <div class="row align-items-start g-5">
+      <div class="col-lg-4">
+        <div class="edu-icon" style="background:#ede9fe;color:#6d28d9;"><i class="fas fa-wheelchair"></i></div>
+        <h2 class="mt-4">Mobility Disabilities</h2>
+        <p class="text-muted">Conditions that affect physical movement, coordination, or dexterity, ranging from temporary injuries to permanent conditions.</p>
+        <div class="mt-4"><h5 class="fw-bold">Common Conditions</h5><p>Includes spinal cord injuries, arthritis, cerebral palsy, muscular dystrophy, and amputations</p></div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-sm animate-pending">
+          <div class="card-body p-4">
+            <h5>Accessibility Considerations</h5>
+            <div class="row mt-3">
+              <div class="col-md-4 mb-3"><div class="p-3 rounded text-center" style="background:var(--teal-pale);border:1px solid rgba(29,122,110,0.12)"><i class="fas fa-archway fa-2x mb-2" style="color:var(--teal)"></i><h6>Physical Access</h6><small>Ramps, elevators, wide doorways</small></div></div>
+              <div class="col-md-4 mb-3"><div class="p-3 rounded text-center" style="background:var(--teal-pale);border:1px solid rgba(29,122,110,0.12)"><i class="fas fa-restroom fa-2x mb-2" style="color:var(--teal)"></i><h6>Facilities</h6><small>Accessible restrooms, parking</small></div></div>
+              <div class="col-md-4 mb-3"><div class="p-3 rounded text-center" style="background:var(--teal-pale);border:1px solid rgba(29,122,110,0.12)"><i class="fas fa-tools fa-2x mb-2" style="color:var(--teal)"></i><h6>Assistive Devices</h6><small>Wheelchairs, walkers, scooters</small></div></div>
+            </div>
+            <div class="mt-4">
+              <h6>Inclusive Design Principles</h6>
+              <ul><li>Provide seating options in queues</li><li>Ensure counter heights are accessible</li><li>Install automatic doors</li><li>Create barrier-free pathways</li><li>Offer adjustable furniture</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="neurodiversity" class="py-5 section-alt">
+  <div class="container py-4">
+    <div class="row align-items-start g-5">
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-sm animate-pending">
+          <div class="card-body p-4">
+            <h4 class="mb-3">Understanding Neurodiversity</h4>
+            <p>Neurodiversity refers to variations in the human brain regarding sociability, learning, attention, mood and other mental functions in a non-pathological sense.</p>
+            <div class="row mt-3">
+              <div class="col-md-6"><h6>Neurodiverse Conditions</h6><ul><li>Autism Spectrum Disorder (ASD)</li><li>ADHD</li><li>Dyslexia</li><li>Dyspraxia</li><li>Tourette Syndrome</li></ul></div>
+              <div class="col-md-6"><h6>Strengths Often Associated</h6><ul><li>Pattern recognition</li><li>Attention to detail</li><li>Creative thinking</li><li>Problem-solving skills</li><li>Specialized interests</li></ul></div>
+            </div>
+            <div class="mt-4 p-3 rounded" style="background:var(--teal-pale);border:1px solid rgba(29,122,110,0.15)">
+              <h6 class="fw-bold">Supportive Environment Tips</h6>
+              <ul class="mb-0"><li>Provide clear, consistent instructions</li><li>Allow for movement breaks</li><li>Create quiet spaces</li><li>Use visual schedules</li><li>Offer multiple communication options</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="edu-icon" style="background:#fff0f0;color:var(--rose);"><i class="fas fa-brain"></i></div>
+        <h2 class="mt-4">Neurodiversity</h2>
+        <p class="text-muted">Recognizing and respecting neurological differences as natural variations of the human brain rather than deficits.</p>
+        <div class="mt-4"><h5 class="fw-bold">Neurodiversity Movement</h5><p>Promotes acceptance and accommodation of neurological differences</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cognitive" class="py-5">
+  <div class="container py-4">
+    <div class="row align-items-start g-5">
+      <div class="col-lg-4">
+        <div class="edu-icon" style="background:#f0fdf4;color:var(--sage);"><i class="fas fa-lightbulb"></i></div>
+        <h2 class="mt-4">Cognitive Disabilities</h2>
+        <p class="text-muted">Conditions that affect learning, memory, perception, and problem-solving abilities, impacting how people process information.</p>
+        <div class="mt-4"><h5 class="fw-bold">Examples Include</h5><p>Down syndrome, traumatic brain injury, dementia, intellectual disabilities</p></div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-sm animate-pending">
+          <div class="card-body p-4">
+            <h5>Communication and Learning Support</h5>
+            <div class="row mt-4">
+              <div class="col-md-6"><h6><i class="fas fa-comments me-2" style="color:var(--teal)"></i>Communication Strategies</h6><ul class="small"><li>Use simple, clear language</li><li>Break information into smaller steps</li><li>Use visual aids and pictures</li><li>Allow extra time for responses</li><li>Repeat or rephrase when needed</li></ul></div>
+              <div class="col-md-6"><h6><i class="fas fa-book-open me-2" style="color:var(--teal)"></i>Learning Accommodations</h6><ul class="small"><li>Provide written instructions</li><li>Use hands-on learning approaches</li><li>Offer frequent breaks</li><li>Use assistive technology</li><li>Provide memory aids</li></ul></div>
+            </div>
+            <div class="alert alert-info mt-4"><i class="fas fa-info-circle me-2"></i><strong>Important:</strong> Focus on abilities rather than limitations. Many people with cognitive disabilities have unique strengths and perspectives.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mental-health" class="py-5 section-alt">
+  <div class="container py-4">
+    <div class="text-center mb-5">
+      <div class="edu-icon mx-auto" style="background:#eff6ff;color:#1d4ed8;"><i class="fas fa-heart-pulse"></i></div>
+      <h2 class="mt-4">Mental Health Conditions</h2>
+      <p class="text-muted">Conditions that affect a person's thinking, feeling, behavior, or mood, which can impact daily functioning and quality of life.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="card h-100 border-0 shadow-sm animate-pending"><div class="card-body text-center p-4"><i class="fas fa-brain fa-2x mb-3" style="color:var(--teal)"></i><h5>Anxiety Disorders</h5><p class="small">Excessive fear or worry that interferes with daily activities</p><div class="mt-3 d-flex flex-wrap gap-1 justify-content-center"><span class="badge bg-primary">Generalized Anxiety</span><span class="badge bg-primary">Panic Disorder</span><span class="badge bg-primary">Social Anxiety</span></div></div></div></div>
+      <div class="col-md-4"><div class="card h-100 border-0 shadow-sm animate-pending"><div class="card-body text-center p-4"><i class="fas fa-cloud-sun fa-2x mb-3" style="color:var(--amber)"></i><h5>Mood Disorders</h5><p class="small">Disturbances in emotional state affecting mood regulation</p><div class="mt-3 d-flex flex-wrap gap-1 justify-content-center"><span class="badge bg-primary">Depression</span><span class="badge bg-primary">Bipolar Disorder</span><span class="badge bg-primary">Seasonal Affective</span></div></div></div></div>
+      <div class="col-md-4"><div class="card h-100 border-0 shadow-sm animate-pending"><div class="card-body text-center p-4"><i class="fas fa-head-side-virus fa-2x mb-3" style="color:var(--rose)"></i><h5>Other Conditions</h5><p class="small">Various mental health conditions requiring support</p><div class="mt-3 d-flex flex-wrap gap-1 justify-content-center"><span class="badge bg-primary">PTSD</span><span class="badge bg-primary">OCD</span><span class="badge bg-primary">Schizophrenia</span></div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="learning" class="py-5">
+  <div class="container py-4">
+    <div class="col-lg-10 mx-auto">
+      <div class="text-center mb-5"><h2>Learning Disabilities</h2><p class="lead">Conditions that affect the ability to acquire, process, or communicate information</p></div>
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead><tr><th>Disability Type</th><th>Characteristics</th><th>Common Accommodations</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Dyslexia</strong></td><td>Difficulty with reading, spelling, and word recognition</td><td>Audio books, text-to-speech, extra time</td></tr>
+            <tr><td><strong>Dyscalculia</strong></td><td>Difficulty with math concepts and calculations</td><td>Calculators, visual aids, step-by-step instructions</td></tr>
+            <tr><td><strong>Dysgraphia</strong></td><td>Difficulty with writing, spelling, and organizing thoughts</td><td>Speech-to-text, typing instead of writing, graphic organizers</td></tr>
+            <tr><td><strong>Auditory Processing</strong></td><td>Difficulty processing auditory information</td><td>Written instructions, visual cues, quiet environments</td></tr>
+            <tr><td><strong>Visual Processing</strong></td><td>Difficulty interpreting visual information</td><td>Large print, colored overlays, verbal explanations</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="alert alert-success mt-4"><i class="fas fa-lightbulb me-2"></i><strong>Success Tip:</strong> Focus on strengths. Many people with learning disabilities have exceptional abilities in creativity, problem-solving, or spatial reasoning.</div>
+    </div>
+  </div>
+</section>
+
+<section id="chronic" class="py-5 section-alt">
+  <div class="container py-4">
+    <div class="row align-items-start g-5">
+      <div class="col-lg-6">
+        <h2>Chronic Health Conditions</h2>
+        <p class="lead">Long-term health conditions that may fluctuate in severity and impact daily functioning</p>
+        <p>These conditions are often "invisible" but can significantly affect a person's ability to work, study, and participate in daily activities.</p>
+        <div class="mt-4"><h5>Common Examples</h5><div class="d-flex flex-wrap gap-2 mt-2"><span class="badge bg-primary">Diabetes</span><span class="badge bg-primary">Fibromyalgia</span><span class="badge bg-primary">Lupus</span><span class="badge bg-primary">Chronic Fatigue</span><span class="badge bg-primary">Crohn's Disease</span><span class="badge bg-primary">Multiple Sclerosis</span><span class="badge bg-primary">Epilepsy</span><span class="badge bg-primary">HIV/AIDS</span></div></div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-sm animate-pending">
+          <div class="card-body p-4">
+            <h5 class="mb-4">Support Strategies</h5>
+            <div class="mb-4"><h6><i class="fas fa-clock me-2" style="color:var(--teal)"></i>Flexibility</h6><p class="small">Allow for flexible schedules and deadlines to accommodate fluctuating symptoms</p></div>
+            <div class="mb-4"><h6><i class="fas fa-home me-2" style="color:var(--teal)"></i>Remote Options</h6><p class="small">Provide options for remote work or learning when physical presence is challenging</p></div>
+            <div class="mb-4"><h6><i class="fas fa-bed me-2" style="color:var(--teal)"></i>Rest Areas</h6><p class="small">Create spaces where people can rest or manage symptoms privately</p></div>
+            <div><h6><i class="fas fa-heart me-2" style="color:var(--teal)"></i>Emotional Support</h6><p class="small">Recognize the emotional impact of chronic illness and provide appropriate support</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip"><div class="container" style="position:relative;"><h2>Explore more resources</h2><p>Discover support services and the inclusion guide for practical next steps.</p><div class="d-flex flex-wrap justify-content-center gap-3"><a href="services.html" class="btn-cta-white"><i class="fas fa-cogs"></i>Support Services</a><a href="inclusion.html" class="btn-modern btn-outline-modern"><i class="fas fa-users"></i>Inclusion Guide</a></div></div></section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand"><span class="navbar-brand-dot" aria-hidden="true"></span>DisabilityAware</div>
+          <p style="max-width:300px;margin-bottom:0;">An educational platform dedicated to promoting disability awareness, inclusion, and accessible resources for all.</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <h5>Explore</h5>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="types.html">Disability Types</a>
+            <a href="services.html">Support Services</a>
+          </nav>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <h5>Resources</h5>
+          <nav class="footer-links" aria-label="Resources navigation">
+            <a href="resources.html">Learning Materials</a>
+            <a href="inclusion.html">Inclusion Guide</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </nav>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h5>Stay Informed</h5>
+          <p style="margin-bottom:16px;">Get updates on disability awareness and inclusion resources.</p>
+          <div class="newsletter-form">
+            <label for="newsletterEmail" class="visually-hidden">Email address</label>
+            <input type="email" id="newsletterEmail" placeholder="Your email address" autocomplete="email"/>
+            <button type="button" id="subscribeBtn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-divider"/>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2025 DisabilityAware — Educational Resource</p>
+        <p><a href="privacy.html" style="color:rgba(255,255,255,0.4);">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

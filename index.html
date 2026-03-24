@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="DisabilityAware — An educational platform dedicated to raising awareness about disabilities, promoting inclusion, and sharing empowering resources."/>
+  <title>Home — DisabilityAware</title>
+  <link rel="stylesheet" href="css/site.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" crossorigin="anonymous"/>
+</head>
+<body>
+
+  <!-- Accessibility Toolbar -->
+  <div class="accessibility-toolbar" role="toolbar" aria-label="Accessibility controls">
+    <button id="font-increase" aria-label="Increase text size" title="Larger text"><i class="fas fa-text-height" aria-hidden="true"></i></button>
+    <button id="font-decrease" aria-label="Decrease text size" title="Smaller text"><i class="fas fa-font" aria-hidden="true"></i></button>
+    <button id="high-contrast" aria-label="Toggle high contrast" title="High contrast"><i class="fas fa-circle-half-stroke" aria-hidden="true"></i></button>
+    <button id="read-aloud" aria-label="Read page aloud" title="Read aloud"><i class="fas fa-volume-high" aria-hidden="true"></i></button>
+    <button id="stop-speech" aria-label="Stop reading" title="Stop" style="display:none;"><i class="fas fa-stop" aria-hidden="true"></i></button>
+  </div>
+
+  <a href="#main-content" class="visually-hidden-focusable" style="position:absolute;top:4px;left:4px;z-index:99999;padding:8px 16px;background:var(--teal);color:white;border-radius:8px;font-weight:600;">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" aria-label="DisabilityAware home">
+        <span class="navbar-brand-dot" aria-hidden="true"></span>
+        DisabilityAware
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="types.html">Disability Types</a></li>
+<li class="nav-item"><a class="nav-link" href="services.html">Support Services</a></li>
+<li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+<li class="nav-item"><a class="nav-link" href="inclusion.html">Inclusion Guide</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content" role="main">
+    
+<section class="hero-section" aria-labelledby="hero-heading">
+  <div class="hero-texture" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-xl-7 hero-content">
+        <div class="hero-eyebrow"><span class="hero-eyebrow-dot" aria-hidden="true"></span>Educational Resource Platform</div>
+        <h1 id="hero-heading">Understanding disabilities,<br><em>building inclusion.</em></h1>
+        <p class="lead">A comprehensive educational platform dedicated to raising awareness about different disabilities, promoting inclusion, and sharing resources that empower communities everywhere.</p>
+        <div class="d-flex flex-wrap gap-3 hero-buttons">
+          <a href="#learn-section" class="btn-modern btn-primary-gradient"><i class="fas fa-book-open" aria-hidden="true"></i>Start Learning</a>
+          <a href="resources.html" class="btn-modern btn-outline-modern"><i class="fas fa-hands-helping" aria-hidden="true"></i>Explore Resources</a>
+        </div>
+        <div class="hero-stat-row" role="list" aria-label="Key statistics">
+          <div class="hero-stat-item" role="listitem"><strong>1.3B</strong><span>People globally living with disability</span></div>
+          <div class="hero-stat-item" role="listitem"><strong>16%</strong><span>Of the world's population</span></div>
+          <div class="hero-stat-item" role="listitem"><strong>6+</strong><span>Disability categories covered</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats-section" aria-labelledby="stats-heading">
+  <h2 id="stats-heading" class="visually-hidden">Disability statistics</h2>
+  <div class="container-fluid px-0">
+    <div class="row g-0">
+      <div class="col-md-3 col-6"><div class="stat-block animate-pending"><div class="stat-number">16%</div><p class="stat-label">of the world's population lives with a disability</p></div></div>
+      <div class="col-md-3 col-6"><div class="stat-block animate-pending"><div class="stat-number">80%</div><p class="stat-label">of disabilities are acquired during working years</p></div></div>
+      <div class="col-md-3 col-6"><div class="stat-block animate-pending"><div class="stat-number">95%</div><p class="stat-label">of websites are not fully accessible</p></div></div>
+      <div class="col-md-3 col-6"><div class="stat-block animate-pending"><div class="stat-number">3×</div><p class="stat-label">higher revenue growth with inclusive hiring</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="learn-section" class="py-5 bg-white" aria-labelledby="learn-heading">
+  <div class="container py-5">
+    <div class="section-header">
+      <span class="section-eyebrow">Explore</span>
+      <h2 id="learn-heading">Types of disabilities &amp; support services</h2>
+      <p>Learn about different disabilities and the services that help create inclusive environments for everyone.</p>
+    </div>
+    <div class="row g-4" role="list">
+      <div class="col-md-6 col-lg-4" role="listitem">
+        <article class="edu-card animate-pending">
+          <div class="edu-icon" aria-hidden="true"><i class="fas fa-eye"></i></div>
+          <h3 class="edu-title">Visual Disabilities</h3>
+          <p class="edu-desc">Understanding blindness, low vision, and the assistive technologies that empower independence.</p>
+          <div class="resources-list"><h6>Helpful services</h6><ul><li>Braille transcription services</li><li>Screen reader software</li><li>Accessible document creation</li><li>Orientation &amp; mobility training</li></ul></div>
+          <a href="types.html#visual" class="edu-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4" role="listitem">
+        <article class="edu-card animate-pending">
+          <div class="edu-icon" aria-hidden="true"><i class="fas fa-ear-deaf"></i></div>
+          <h3 class="edu-title">Hearing Disabilities</h3>
+          <p class="edu-desc">Learning about deafness, hearing loss, and communication support systems.</p>
+          <div class="resources-list"><h6>Helpful services</h6><ul><li>Sign language interpretation</li><li>Real-time captioning (CART)</li><li>Assistive listening devices</li><li>Deaf culture training</li></ul></div>
+          <a href="types.html#hearing" class="edu-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4" role="listitem">
+        <article class="edu-card animate-pending">
+          <div class="edu-icon" aria-hidden="true"><i class="fas fa-wheelchair"></i></div>
+          <h3 class="edu-title">Mobility Disabilities</h3>
+          <p class="edu-desc">Understanding physical disabilities and accessibility solutions that enable full participation.</p>
+          <div class="resources-list"><h6>Helpful services</h6><ul><li>Accessibility consulting</li><li>Assistive technology</li><li>Adaptive equipment</li><li>Universal design support</li></ul></div>
+          <a href="types.html#mobility" class="edu-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4" role="listitem">
+        <article class="edu-card animate-pending">
+          <div class="edu-icon" aria-hidden="true"><i class="fas fa-brain"></i></div>
+          <h3 class="edu-title">Neurodiversity</h3>
+          <p class="edu-desc">Exploring autism, ADHD, dyslexia and supportive approaches to neurodivergent minds.</p>
+          <div class="resources-list"><h6>Helpful services</h6><ul><li>Sensory-friendly design</li><li>Executive function coaching</li><li>Alternative assessments</li><li>Awareness training</li></ul></div>
+          <a href="types.html#neurodiversity" class="edu-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4" role="listitem">
+        <article class="edu-card animate-pending">
+          <div class="edu-icon" aria-hidden="true"><i class="fas fa-lightbulb"></i></div>
+          <h3 class="edu-title">Cognitive Disabilities</h3>
+          <p class="edu-desc">Understanding intellectual disabilities and learning differences with compassion and clarity.</p>
+          <div class="resources-list"><h6>Helpful services</h6><ul><li>Easy-read documents</li><li>Cognitive assistive tech</li><li>Supported programs</li><li>Skills workshops</li></ul></div>
+          <a href="types.html#cognitive" class="edu-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4" role="listitem">
+        <article class="edu-card animate-pending">
+          <div class="edu-icon" aria-hidden="true"><i class="fas fa-heart-pulse"></i></div>
+          <h3 class="edu-title">Mental Health</h3>
+          <p class="edu-desc">Learning about mental health conditions and building supportive, stigma-free environments.</p>
+          <div class="resources-list"><h6>Helpful services</h6><ul><li>Mental health first aid</li><li>Wellness programs</li><li>Flexible arrangements</li><li>Peer support networks</li></ul></div>
+          <a href="types.html#mental-health" class="edu-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 support-section" aria-labelledby="support-heading">
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 order-lg-2">
+        <div class="support-image-wrap animate-pending">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80" alt="Diverse group of people collaborating inclusively in a modern workspace" loading="lazy"/>
+          <div class="support-image-badge" aria-hidden="true">
+            <div class="badge-icon"><i class="fas fa-universal-access"></i></div>
+            <div><strong>Universal Design</strong><span>For everyone, always</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 order-lg-1 animate-pending">
+        <span class="section-eyebrow">Accessibility</span>
+        <h2 id="support-heading">Creating accessible environments</h2>
+        <p style="font-size:1.05rem;margin:16px 0 28px;">Accessibility isn't just about ramps and elevators — it's about creating environments where everyone can participate fully, independently, and with dignity.</p>
+        <div class="check-item"><div class="check-icon" aria-hidden="true"><i class="fas fa-check"></i></div><div><strong>Universal Design</strong><p>Creating products and environments usable by all people, without adaptation</p></div></div>
+        <div class="check-item"><div class="check-icon" aria-hidden="true"><i class="fas fa-check"></i></div><div><strong>Reasonable Accommodations</strong><p>Thoughtful modifications that enable full participation for everyone</p></div></div>
+        <div class="check-item"><div class="check-icon" aria-hidden="true"><i class="fas fa-check"></i></div><div><strong>Digital Accessibility</strong><p>Making websites, apps and content fully usable by people of all abilities</p></div></div>
+        <div class="check-item"><div class="check-icon" aria-hidden="true"><i class="fas fa-check"></i></div><div><strong>Inclusive Communication</strong><p>Multiple formats and channels to serve different needs and preferences</p></div></div>
+        <a href="inclusion.html" class="btn-modern btn-primary-gradient mt-4">Explore the inclusion guide <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip" aria-labelledby="cta-heading">
+  <div class="container" style="position:relative;">
+    <h2 id="cta-heading">Ready to make a difference?</h2>
+    <p>Explore our full library of resources, guides, and tools to create more inclusive spaces.</p>
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      <a href="resources.html" class="btn-cta-white"><i class="fas fa-book" aria-hidden="true"></i>Browse Resources</a>
+      <a href="services.html" class="btn-modern btn-outline-modern"><i class="fas fa-hands-helping" aria-hidden="true"></i>Support Services</a>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand"><span class="navbar-brand-dot" aria-hidden="true"></span>DisabilityAware</div>
+          <p style="max-width:300px;margin-bottom:0;">An educational platform dedicated to promoting disability awareness, inclusion, and accessible resources for all.</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <h5>Explore</h5>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="types.html">Disability Types</a>
+            <a href="services.html">Support Services</a>
+          </nav>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <h5>Resources</h5>
+          <nav class="footer-links" aria-label="Resources navigation">
+            <a href="resources.html">Learning Materials</a>
+            <a href="inclusion.html">Inclusion Guide</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </nav>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h5>Stay Informed</h5>
+          <p style="margin-bottom:16px;">Get updates on disability awareness and inclusion resources.</p>
+          <div class="newsletter-form">
+            <label for="newsletterEmail" class="visually-hidden">Email address</label>
+            <input type="email" id="newsletterEmail" placeholder="Your email address" autocomplete="email"/>
+            <button type="button" id="subscribeBtn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-divider"/>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2025 DisabilityAware — Educational Resource</p>
+        <p><a href="privacy.html" style="color:rgba(255,255,255,0.4);">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

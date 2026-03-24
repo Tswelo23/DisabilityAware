@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="DisabilityAware — An educational platform dedicated to raising awareness about disabilities, promoting inclusion, and sharing empowering resources."/>
+  <title>Educational Resources — DisabilityAware</title>
+  <link rel="stylesheet" href="css/site.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" crossorigin="anonymous"/>
+</head>
+<body>
+
+  <!-- Accessibility Toolbar -->
+  <div class="accessibility-toolbar" role="toolbar" aria-label="Accessibility controls">
+    <button id="font-increase" aria-label="Increase text size" title="Larger text"><i class="fas fa-text-height" aria-hidden="true"></i></button>
+    <button id="font-decrease" aria-label="Decrease text size" title="Smaller text"><i class="fas fa-font" aria-hidden="true"></i></button>
+    <button id="high-contrast" aria-label="Toggle high contrast" title="High contrast"><i class="fas fa-circle-half-stroke" aria-hidden="true"></i></button>
+    <button id="read-aloud" aria-label="Read page aloud" title="Read aloud"><i class="fas fa-volume-high" aria-hidden="true"></i></button>
+    <button id="stop-speech" aria-label="Stop reading" title="Stop" style="display:none;"><i class="fas fa-stop" aria-hidden="true"></i></button>
+  </div>
+
+  <a href="#main-content" class="visually-hidden-focusable" style="position:absolute;top:4px;left:4px;z-index:99999;padding:8px 16px;background:var(--teal);color:white;border-radius:8px;font-weight:600;">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" aria-label="DisabilityAware home">
+        <span class="navbar-brand-dot" aria-hidden="true"></span>
+        DisabilityAware
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="types.html">Disability Types</a></li>
+<li class="nav-item"><a class="nav-link" href="services.html">Support Services</a></li>
+<li class="nav-item"><a class="nav-link active" href="resources.html" aria-current="page">Resources</a></li>
+<li class="nav-item"><a class="nav-link" href="inclusion.html">Inclusion Guide</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content" role="main">
+    
+<section class="page-hero"><div class="container"><div class="col-lg-8"><span class="section-eyebrow" style="color:rgba(255,255,255,0.6);">Library</span><h1>Educational resources &amp; learning materials</h1><p>Access comprehensive learning materials, training programs, and educational resources designed to support individuals with disabilities, educators, and service providers.</p></div></div></section>
+
+<section class="py-5"><div class="container py-4">
+  <div class="section-header centered"><h2>Resource categories</h2><p>Browse through categorised resources to find exactly what you need for learning, teaching, or professional development.</p></div>
+  <div class="row g-4">
+    <div class="col-md-4"><div class="category-card animate-pending"><div class="category-icon bg-primary"><i class="fas fa-graduation-cap"></i></div><h3>Educational Materials</h3><p>Learning resources for students with disabilities at all educational levels</p><ul class="resource-list"><li>Accessible textbooks</li><li>Study guides</li><li>Learning aids</li><li>Exam preparation</li></ul><a href="#educational-materials" class="btn-modern btn-primary-gradient mt-3" style="padding:10px 20px;font-size:0.85rem;">Explore Resources</a></div></div>
+    <div class="col-md-4"><div class="category-card animate-pending"><div class="category-icon bg-success"><i class="fas fa-chalkboard-teacher"></i></div><h3>Teacher Resources</h3><p>Materials and guides for educators working with students with disabilities</p><ul class="resource-list"><li>Lesson plans</li><li>Classroom strategies</li><li>Assessment tools</li><li>Inclusion guidelines</li></ul><a href="#teacher-resources" class="btn-modern btn-primary-gradient mt-3" style="padding:10px 20px;font-size:0.85rem;">Explore Resources</a></div></div>
+    <div class="col-md-4"><div class="category-card animate-pending"><div class="category-icon bg-warning"><i class="fas fa-briefcase"></i></div><h3>Professional Development</h3><p>Training and certification programs for disability service professionals</p><ul class="resource-list"><li>Online courses</li><li>Workshops</li><li>Certifications</li><li>Conferences</li></ul><a href="#professional-development" class="btn-modern btn-primary-gradient mt-3" style="padding:10px 20px;font-size:0.85rem;">Explore Resources</a></div></div>
+    <div class="col-md-4"><div class="category-card animate-pending"><div class="category-icon bg-info"><i class="fas fa-hands-helping"></i></div><h3>Parent &amp; Caregiver Guides</h3><p>Resources for families and caregivers supporting individuals with disabilities</p><ul class="resource-list"><li>Caregiving guides</li><li>Advocacy resources</li><li>Support networks</li><li>Financial planning</li></ul><a href="#parent-guides" class="btn-modern btn-primary-gradient mt-3" style="padding:10px 20px;font-size:0.85rem;">Explore Resources</a></div></div>
+    <div class="col-md-4"><div class="category-card animate-pending"><div class="category-icon bg-danger"><i class="fas fa-universal-access"></i></div><h3>Assistive Technology</h3><p>Guides and tutorials for using assistive devices and software</p><ul class="resource-list"><li>Software tutorials</li><li>Device guides</li><li>Setup instructions</li><li>Troubleshooting</li></ul><a href="#assistive-tech" class="btn-modern btn-primary-gradient mt-3" style="padding:10px 20px;font-size:0.85rem;">Explore Resources</a></div></div>
+    <div class="col-md-4"><div class="category-card animate-pending"><div class="category-icon bg-purple"><i class="fas fa-balance-scale"></i></div><h3>Legal &amp; Policy Resources</h3><p>Information on disability rights, laws, and advocacy</p><ul class="resource-list"><li>Legal guides</li><li>Policy documents</li><li>Rights information</li><li>Advocacy tools</li></ul><a href="#legal-resources" class="btn-modern btn-primary-gradient mt-3" style="padding:10px 20px;font-size:0.85rem;">Explore Resources</a></div></div>
+  </div>
+</div></section>
+
+<section id="educational-materials" class="py-5 section-alt"><div class="container py-4">
+  <h2 class="text-center mb-2">Educational materials</h2>
+  <p class="text-center text-muted mb-5">Accessible learning materials for students with various disabilities</p>
+  <div class="row g-4">
+    <div class="col-md-6"><div class="resource-card animate-pending"><div class="resource-badge">Free</div><h4><i class="fas fa-book me-2" style="color:var(--teal)"></i>Accessible Textbooks</h4><p>Digital textbooks in accessible formats including DAISY, EPUB, and Braille-ready formats.</p><div class="resource-links"><a href="https://www.bookshare.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Bookshare — Free Accessible Books</a><a href="https://www.rfb.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>RFB&amp;D Learning Ally</a><a href="https://www.tshirologo.co.za" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Tshirologo Braille Resources</a></div></div></div>
+    <div class="col-md-6"><div class="resource-card animate-pending"><div class="resource-badge bg-success">Interactive</div><h4><i class="fas fa-laptop-code me-2" style="color:var(--teal)"></i>E-Learning Platforms</h4><p>Online learning platforms with built-in accessibility features for students with disabilities.</p><div class="resource-links"><a href="https://www.khanacademy.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Khan Academy Accessibility</a><a href="https://www.coursera.org/accessibility" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Coursera Accessibility</a><a href="https://www.edx.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>edX Accessible Courses</a></div></div></div>
+  </div>
+</div></section>
+
+<section id="teacher-resources" class="py-5"><div class="container py-4">
+  <h2 class="text-center mb-5">Teacher resources</h2>
+  <div class="row g-4">
+    <div class="col-md-6"><div class="resource-card animate-pending"><div class="resource-badge">Free</div><h4><i class="fas fa-chalkboard-teacher me-2" style="color:var(--teal)"></i>Inclusive Teaching Strategies</h4><p>Evidence-based strategies for creating inclusive classrooms that support all learners.</p><div class="resource-links"><a href="https://www.cast.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>CAST Universal Design for Learning</a><a href="https://www.inclusive.co.uk" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Inclusive Technology Resources</a><a href="https://www.understood.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Understood.org — Educator Tools</a></div></div></div>
+    <div class="col-md-6"><div class="resource-card animate-pending"><div class="resource-badge bg-warning">Premium</div><h4><i class="fas fa-tools me-2" style="color:var(--teal)"></i>Assessment &amp; Accommodation Tools</h4><p>Tools for creating accessible assessments and implementing accommodations effectively.</p><div class="resource-links"><a href="https://www.pearsonassessments.com" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Pearson Accessible Assessments</a><a href="https://www.smarterbalanced.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Smarter Balanced Accessibility</a></div></div></div>
+  </div>
+</div></section>
+
+<section id="professional-development" class="py-5 section-alt"><div class="container py-4">
+  <h2 class="text-center mb-5">Professional development</h2>
+  <div class="row g-4">
+    <div class="col-md-4"><div class="resource-card animate-pending"><div class="resource-badge">Online</div><h4><i class="fas fa-certificate me-2" style="color:var(--teal)"></i>Certification Programs</h4><p>Recognised certifications in disability services and inclusive design.</p><div class="resource-links"><a href="https://www.certificationboard.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Certification Board for Disability Management</a><a href="https://www.iaap-hq.org" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>IAAP Accessibility Certification</a></div></div></div>
+    <div class="col-md-4"><div class="resource-card animate-pending"><div class="resource-badge bg-success">Free</div><h4><i class="fas fa-video me-2" style="color:var(--teal)"></i>Webinars &amp; Online Courses</h4><p>Free and affordable online training on disability awareness and inclusion.</p><div class="resource-links"><a href="https://www.futurelearn.com" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>FutureLearn Disability Courses</a><a href="https://www.linkedin.com/learning" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>LinkedIn Learning — Accessibility</a></div></div></div>
+    <div class="col-md-4"><div class="resource-card animate-pending"><div class="resource-badge bg-warning">SA Focus</div><h4><i class="fas fa-graduation-cap me-2" style="color:var(--teal)"></i>South African Training</h4><p>Local training programmes focused on South African context and legislation.</p><div class="resource-links"><a href="https://www.dpsa.gov.za" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>DPSA Training Programmes</a><a href="https://www.dpmsa.org.za" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Disability Professionals Management SA</a></div></div></div>
+  </div>
+</div></section>
+
+<section id="legal-resources" class="py-5"><div class="container py-4">
+  <h2 class="text-center mb-5">Legal &amp; policy resources</h2>
+  <div class="row g-4">
+    <div class="col-md-6"><div class="resource-card animate-pending"><div class="resource-badge">SA Law</div><h4><i class="fas fa-balance-scale me-2" style="color:var(--teal)"></i>South African Disability Rights</h4><p>Key legislation and policies protecting the rights of people with disabilities in South Africa.</p><div class="resource-links"><a href="https://www.gov.za/documents/constitution" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Constitution of South Africa — Section 9</a><a href="https://www.gov.za/documents/employment-equity-act" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>Employment Equity Act</a><a href="https://www.dpsa.gov.za/dpsa2g/documents/erpm/WhitepaperDisabilities.pdf" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>White Paper on the Rights of Persons with Disabilities</a></div></div></div>
+    <div class="col-md-6"><div class="resource-card animate-pending"><div class="resource-badge">International</div><h4><i class="fas fa-globe me-2" style="color:var(--teal)"></i>International Standards</h4><p>Global frameworks and standards for disability rights and accessibility.</p><div class="resource-links"><a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>UN CRPD — Convention on Rights</a><a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>WCAG 2.1 Accessibility Guidelines</a><a href="https://www.iso.org/standard/71061.html" target="_blank" class="resource-link"><i class="fas fa-external-link-alt"></i>ISO Accessibility Standards</a></div></div></div>
+  </div>
+</div></section>
+
+<section class="cta-strip"><div class="container" style="position:relative;"><h2>Ready to take action?</h2><p>Explore support services and the inclusion guide to put these resources into practice.</p><div class="d-flex flex-wrap justify-content-center gap-3"><a href="services.html" class="btn-cta-white"><i class="fas fa-cogs"></i>Support Services</a><a href="inclusion.html" class="btn-modern btn-outline-modern"><i class="fas fa-users"></i>Inclusion Guide</a></div></div></section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand"><span class="navbar-brand-dot" aria-hidden="true"></span>DisabilityAware</div>
+          <p style="max-width:300px;margin-bottom:0;">An educational platform dedicated to promoting disability awareness, inclusion, and accessible resources for all.</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <h5>Explore</h5>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="types.html">Disability Types</a>
+            <a href="services.html">Support Services</a>
+          </nav>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <h5>Resources</h5>
+          <nav class="footer-links" aria-label="Resources navigation">
+            <a href="resources.html">Learning Materials</a>
+            <a href="inclusion.html">Inclusion Guide</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </nav>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h5>Stay Informed</h5>
+          <p style="margin-bottom:16px;">Get updates on disability awareness and inclusion resources.</p>
+          <div class="newsletter-form">
+            <label for="newsletterEmail" class="visually-hidden">Email address</label>
+            <input type="email" id="newsletterEmail" placeholder="Your email address" autocomplete="email"/>
+            <button type="button" id="subscribeBtn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-divider"/>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2025 DisabilityAware — Educational Resource</p>
+        <p><a href="privacy.html" style="color:rgba(255,255,255,0.4);">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

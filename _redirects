@@ -1,0 +1,7 @@
+# Netlify redirects
+/home        /index.html  301
+/types       /types.html  301
+/services    /services.html  301
+/resources   /resources.html  301
+/inclusion   /inclusion.html  301
+/privacy     /privacy.html  301

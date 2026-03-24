@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="DisabilityAware — An educational platform dedicated to raising awareness about disabilities, promoting inclusion, and sharing empowering resources."/>
+  <title>Support Services — DisabilityAware</title>
+  <link rel="stylesheet" href="css/site.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" crossorigin="anonymous"/>
+</head>
+<body>
+
+  <!-- Accessibility Toolbar -->
+  <div class="accessibility-toolbar" role="toolbar" aria-label="Accessibility controls">
+    <button id="font-increase" aria-label="Increase text size" title="Larger text"><i class="fas fa-text-height" aria-hidden="true"></i></button>
+    <button id="font-decrease" aria-label="Decrease text size" title="Smaller text"><i class="fas fa-font" aria-hidden="true"></i></button>
+    <button id="high-contrast" aria-label="Toggle high contrast" title="High contrast"><i class="fas fa-circle-half-stroke" aria-hidden="true"></i></button>
+    <button id="read-aloud" aria-label="Read page aloud" title="Read aloud"><i class="fas fa-volume-high" aria-hidden="true"></i></button>
+    <button id="stop-speech" aria-label="Stop reading" title="Stop" style="display:none;"><i class="fas fa-stop" aria-hidden="true"></i></button>
+  </div>
+
+  <a href="#main-content" class="visually-hidden-focusable" style="position:absolute;top:4px;left:4px;z-index:99999;padding:8px 16px;background:var(--teal);color:white;border-radius:8px;font-weight:600;">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" aria-label="DisabilityAware home">
+        <span class="navbar-brand-dot" aria-hidden="true"></span>
+        DisabilityAware
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="types.html">Disability Types</a></li>
+<li class="nav-item"><a class="nav-link active" href="services.html" aria-current="page">Support Services</a></li>
+<li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+<li class="nav-item"><a class="nav-link" href="inclusion.html">Inclusion Guide</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content" role="main">
+    
+<section class="page-hero"><div class="container"><div class="col-lg-8"><span class="section-eyebrow" style="color:rgba(255,255,255,0.6);">Support</span><h1>Support services &amp; resources</h1><p>Discover comprehensive support services, assistive technologies, and resources designed to empower individuals with disabilities and promote inclusion.</p></div></div></section>
+
+<section class="py-5"><div class="container py-4">
+  <div class="section-header centered"><h2>Comprehensive support services</h2><p>We connect individuals with disabilities to essential services, technologies, and resources that enhance independence and participation.</p></div>
+  <div class="row g-4">
+    <div class="col-md-4"><div class="service-card animate-pending"><div class="service-icon bg-primary"><i class="fas fa-user-cog"></i></div><h3>Assistive Technology</h3><p>Tools and devices that help individuals perform tasks they might otherwise be unable to do</p><ul class="service-list"><li>Screen readers &amp; magnifiers</li><li>Speech recognition software</li><li>Alternative input devices</li><li>Environmental controls</li></ul></div></div>
+    <div class="col-md-4"><div class="service-card animate-pending"><div class="service-icon bg-success"><i class="fas fa-hands-helping"></i></div><h3>Personal Support</h3><p>Services that provide direct assistance and support for daily living activities</p><ul class="service-list"><li>Personal care attendants</li><li>Sign language interpreters</li><li>Job coaches</li><li>Transportation assistance</li></ul></div></div>
+    <div class="col-md-4"><div class="service-card animate-pending"><div class="service-icon bg-warning"><i class="fas fa-graduation-cap"></i></div><h3>Educational Support</h3><p>Resources and accommodations for academic success at all educational levels</p><ul class="service-list"><li>Academic accommodations</li><li>Tutoring services</li><li>Assistive learning technology</li><li>Transition planning</li></ul></div></div>
+    <div class="col-md-4"><div class="service-card animate-pending"><div class="service-icon bg-info"><i class="fas fa-briefcase"></i></div><h3>Employment Services</h3><p>Support for finding, obtaining, and maintaining meaningful employment</p><ul class="service-list"><li>Vocational rehabilitation</li><li>Job placement assistance</li><li>Workplace accommodations</li><li>Career counseling</li></ul></div></div>
+    <div class="col-md-4"><div class="service-card animate-pending"><div class="service-icon bg-danger"><i class="fas fa-home"></i></div><h3>Housing Support</h3><p>Resources for accessible and independent living arrangements</p><ul class="service-list"><li>Accessible housing resources</li><li>Home modification grants</li><li>Independent living centers</li><li>Supported living services</li></ul></div></div>
+    <div class="col-md-4"><div class="service-card animate-pending"><div class="service-icon bg-purple"><i class="fas fa-heartbeat"></i></div><h3>Health Services</h3><p>Healthcare and wellness services tailored to disability needs</p><ul class="service-list"><li>Specialized healthcare</li><li>Therapy services</li><li>Mental health support</li><li>Nutrition counseling</li></ul></div></div>
+  </div>
+</div></section>
+
+<section class="py-5 section-alt"><div class="container py-4">
+  <div class="row align-items-start g-5">
+    <div class="col-lg-6">
+      <span class="section-eyebrow">Technology</span>
+      <h2 class="mb-4">Assistive technology solutions</h2>
+      <p class="mb-4">Technology can be a powerful equalizer, providing tools that enable independence and participation in all aspects of life.</p>
+      <div class="tech-category"><h5><i class="fas fa-desktop me-2" style="color:var(--teal)"></i>Computer Access</h5><ul><li><a href="https://www.freedomscientific.com/products/software/jaws/" target="_blank">JAWS Screen Reader</a></li><li><a href="https://www.nvaccess.org" target="_blank">NVDA (Free Screen Reader)</a></li><li><a href="https://www.nuance.com/dragon.html" target="_blank">Dragon Speech Recognition</a></li><li><a href="https://www.microsoft.com/en-us/accessibility" target="_blank">Microsoft Accessibility Tools</a></li></ul></div>
+      <div class="tech-category"><h5><i class="fas fa-mobile-alt me-2" style="color:var(--teal)"></i>Mobile Accessibility</h5><ul><li><a href="https://www.apple.com/accessibility/" target="_blank">Apple Accessibility Features</a></li><li><a href="https://www.android.com/accessibility/" target="_blank">Android Accessibility Suite</a></li><li><a href="https://www.microsoft.com/en-us/seeing-ai" target="_blank">Seeing AI by Microsoft</a></li><li><a href="https://be-my-eyes.com" target="_blank">Be My Eyes App</a></li></ul></div>
+      <div class="tech-category"><h5><i class="fas fa-universal-access me-2" style="color:var(--teal)"></i>Daily Living Aids</h5><ul><li><a href="https://www.assistiveware.com" target="_blank">AssistiveWare Communication Tools</a></li><li><a href="https://www.permobil.com" target="_blank">Permobil Mobility Solutions</a></li><li><a href="https://www.invacare.com" target="_blank">Invacare Medical Equipment</a></li></ul></div>
+    </div>
+    <div class="col-lg-6">
+      <div class="card border-0 shadow-lg animate-pending">
+        <div class="card-body p-4">
+          <h4 class="text-center mb-2">Technology Assessment</h4>
+          <p class="text-center text-muted small mb-4">Find the right assistive technology for your needs</p>
+          <div class="mb-3"><label class="form-label fw-600" for="need-area">Primary Need Area</label><select class="form-select" id="need-area"><option selected>Select an area...</option><option>Vision/Reading</option><option>Hearing/Communication</option><option>Mobility/Physical Access</option><option>Learning/Cognitive</option><option>Daily Living Activities</option></select></div>
+          <div class="mb-3"><label class="form-label fw-600" for="exp-level">Technology Experience Level</label><select class="form-select" id="exp-level"><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select></div>
+          <div class="mb-4"><label class="form-label fw-600" for="budget">Budget Range (Rands)</label><select class="form-select" id="budget"><option>Under R1,000</option><option>R1,000 – R5,000</option><option>R5,000 – R10,000</option><option>R10,000 – R50,000</option><option>Over R50,000</option></select></div>
+          <button type="button" class="btn-modern btn-primary-gradient w-100 justify-content-center" id="assessBtn"><i class="fas fa-search"></i>Find Recommended Technology</button>
+          <div id="assessResult" class="mt-3" style="display:none;"></div>
+          <p class="text-center mt-3" style="font-size:0.8rem;color:var(--ink-muted)"><i class="fas fa-info-circle me-1"></i>This tool provides general recommendations. Consult with a professional for personalised assessment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section class="py-5"><div class="container py-4">
+  <div class="section-header centered"><h2>Funding &amp; financial assistance</h2><p>Explore various funding sources and financial assistance programs available for disability-related services and equipment.</p></div>
+  <div class="row g-4">
+    <div class="col-md-6 col-lg-3"><div class="funding-card animate-pending"><div class="funding-icon"><i class="fas fa-university"></i></div><h4>South African Government</h4><ul><li><a href="https://www.gov.za/services/disability-grants" target="_blank">Disability Grants (SASSA)</a></li><li><a href="https://www.dsd.gov.za" target="_blank">Dept of Social Development</a></li><li><a href="https://www.dhet.gov.za" target="_blank">Dept of Higher Education</a></li><li><a href="https://www.labour.gov.za" target="_blank">Dept of Employment &amp; Labour</a></li></ul></div></div>
+    <div class="col-md-6 col-lg-3"><div class="funding-card animate-pending"><div class="funding-icon"><i class="fas fa-hand-holding-usd"></i></div><h4>Grants &amp; Foundations</h4><ul><li><a href="https://www.disabilitysa.org" target="_blank">Disability SA Grants</a></li><li><a href="https://www.angloamerican.com" target="_blank">Anglo American Trust</a></li><li><a href="https://www.nedbank.co.za" target="_blank">Nedbank Foundation</a></li><li><a href="https://www.motsepefoundation.org" target="_blank">Motsepe Foundation</a></li></ul></div></div>
+    <div class="col-md-6 col-lg-3"><div class="funding-card animate-pending"><div class="funding-icon"><i class="fas fa-building"></i></div><h4>Insurance &amp; Medical Aid</h4><ul><li><a href="https://www.discovery.co.za/medical-aid" target="_blank">Discovery Health</a></li><li><a href="https://www.momentum.co.za" target="_blank">Momentum Health</a></li><li><a href="https://www.bonitas.co.za" target="_blank">Bonitas Medical Fund</a></li><li><a href="https://www.medshield.co.za" target="_blank">Medshield Medical Scheme</a></li></ul></div></div>
+    <div class="col-md-6 col-lg-3"><div class="funding-card animate-pending"><div class="funding-icon"><i class="fas fa-hands-helping"></i></div><h4>Non-Profit Organizations</h4><ul><li><a href="https://www.disabilitysa.org" target="_blank">Disability SA</a></li><li><a href="https://www.cheshire.co.za" target="_blank">Cheshire Homes SA</a></li><li><a href="https://www.nid.org.za" target="_blank">National Institute for Deaf</a></li><li><a href="https://www.sancb.org.za" target="_blank">SA National Council for Blind</a></li></ul></div></div>
+  </div>
+</div></section>
+
+<section class="cta-strip"><div class="container" style="position:relative;"><h2>Need personalised guidance?</h2><p>Explore our inclusion resources and learning materials for more support.</p><div class="d-flex flex-wrap justify-content-center gap-3"><a href="resources.html" class="btn-cta-white"><i class="fas fa-book"></i>Browse Resources</a><a href="inclusion.html" class="btn-modern btn-outline-modern"><i class="fas fa-users"></i>Inclusion Guide</a></div></div></section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand"><span class="navbar-brand-dot" aria-hidden="true"></span>DisabilityAware</div>
+          <p style="max-width:300px;margin-bottom:0;">An educational platform dedicated to promoting disability awareness, inclusion, and accessible resources for all.</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <h5>Explore</h5>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="types.html">Disability Types</a>
+            <a href="services.html">Support Services</a>
+          </nav>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <h5>Resources</h5>
+          <nav class="footer-links" aria-label="Resources navigation">
+            <a href="resources.html">Learning Materials</a>
+            <a href="inclusion.html">Inclusion Guide</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </nav>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h5>Stay Informed</h5>
+          <p style="margin-bottom:16px;">Get updates on disability awareness and inclusion resources.</p>
+          <div class="newsletter-form">
+            <label for="newsletterEmail" class="visually-hidden">Email address</label>
+            <input type="email" id="newsletterEmail" placeholder="Your email address" autocomplete="email"/>
+            <button type="button" id="subscribeBtn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-divider"/>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2025 DisabilityAware — Educational Resource</p>
+        <p><a href="privacy.html" style="color:rgba(255,255,255,0.4);">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
